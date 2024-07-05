@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <input type="text" id="fournisseurName" name="name" required>
             <label for="fournisseurContact">Contact:</label>
             <input type="text" id="fournisseurContact" name="contact" required>
+            <label for="fournisseurTelephone">telephone:</label>
+            <input type="number" id="fournisseurTelephone" name="telephone" required>
             <button type="submit">Enregistrer</button>
         </form>
     `;
